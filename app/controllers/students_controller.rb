@@ -1,6 +1,6 @@
 class StudentsController < ApplicationController
     def index
-        students = student.all
+        students = Student.all
         render json: students
     end
 
